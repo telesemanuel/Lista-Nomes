@@ -25,7 +25,7 @@ while True:
                 
         case "2":
             try:
-                novo_nome = input("Informe o novo nome: ")
+                novo_nome = input("Informe o novo nome: ").capitalize()
                 nomes.append(novo_nome)
                 print(f"Nome {novo_nome} cadastrado com sucesso.")
             except:
